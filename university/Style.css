@@ -1,0 +1,88 @@
+body.grey {
+    background-color: gray;
+}
+
+h1 {
+    text-align: center;
+}
+
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    overflow: hidden;
+    font-size: 130%;  
+    background-color: grey;
+}
+
+ul.topnav li {float: left;}
+ul.topnav li.right {float: right;}
+
+ul.topnav li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul.topnav li a:hover {
+    background-color: white;
+}
+
+@media screen and (max-width: 600px){
+    ul.topnav li.right,
+    ul.topnav li {float: none;}
+}
+
+h4 {
+    text-align: center;
+}
+
+h4.h4 {
+    color:red;
+    text-align: center;
+}
+
+div.main {
+    position:fixed;
+    top: 38%;
+    left: 50%;
+    width:30em;
+    margin-top: -9em; 
+    margin-left: -15em;
+    border: 25px solid black;
+    background-color: white;
+}
+
+table.view {
+    width: 100%;
+    border-collapse: collapse;
+    border:2px solid black;
+    text-align: center;
+}
+
+th {
+    height: 50px;
+    background-color: grey;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+}
+
+#bottom { 
+    border: 1px 
+    solid white; 
+    background-color: grey; 
+    text-align: center;
+    color: black; 
+    padding: 10px; 
+    font-size: 90%; 
+    line-height: 14px; 
+} 
+
+legend {
+	font-size: 160%;
+}
